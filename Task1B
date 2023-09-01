@@ -1,0 +1,16 @@
+#install packages 
+
+#load in packages
+library("tidyverse")
+library(ggpubr)
+library(ggplot2)
+
+#load in the files needed for the task. 
+
+#data_task1B <- read.csv (FILEPATH/USER/COURSE/task1_dataset_B.csvA, )
+
+library(readr)
+data2 <- read_csv("D:\\RStudio\\Binning\\data.csv ")
+
+
+#now do a scatter plot and see how you can pull a variance and median from the data. 
